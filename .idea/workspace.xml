@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dfdbfaf-0fa6-40bf-82d5-9ce80aef7c9b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dscdc_inference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dscdc_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dsedc_eval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/matfile_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/compare_models/Dscdc_inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dscdc_inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dscdc_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dsedc_eval.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +17,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/deep_learning$plot_module.coverage" NAME="plot_module Coverage Results" MODIFIED="1545962914853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DCAE_diagnosis" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$Dscdc_train.coverage" NAME="Dscdc_train Coverage Results" MODIFIED="1546954082407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning" />
     <SUITE FILE_PATH="coverage/deep_learning$DCGAN_MNIST.coverage" NAME="DCGAN_MNIST Coverage Results" MODIFIED="1546506850766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$Dsedc_eval.coverage" NAME="Dsedc_eval Coverage Results" MODIFIED="1546954080334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning" />
     <SUITE FILE_PATH="coverage/deep_learning$depth_wise_convolution.coverage" NAME="depth_wise_convolution Coverage Results" MODIFIED="1546874501400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deep_learning$test.coverage" NAME="test Coverage Results" MODIFIED="1528615124281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deep_learning_diagnosis$depth_wise_convolution.coverage" NAME="depth_wise_convolution Coverage Results" MODIFIED="1546909469029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -39,15 +40,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AlexNet_Time_envaluate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AlexNet_Huang/AlexNet_Time_envaluate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="depth_wise_convolution.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/depth_wise_convolution.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dsedc_eval.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dsedc_eval.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dsedc_eval.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -71,10 +63,52 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Dscdc_inference.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/compare_models/Dscdc_inference.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-180">
+              <caret line="30" column="15" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dscdc_inference.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dscdc_inference.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dscdc_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dscdc_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1160">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dsedc_eval.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dsedc_eval.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="69" column="16" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LeNet5_Bearing_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="540">
               <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -100,26 +134,10 @@
       <file leaf-file-name="LeNet_1d_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
+            <state relative-caret-position="920">
               <caret line="46" column="41" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="41" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeNet5_Mnist_inference.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeNet5_MNIST/LeNet5_Mnist_inference.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="PCA_MNIST.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PCA_MNIST.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,6 +176,9 @@
         <option value="$PROJECT_DIR$/Depthwise_separable_conv_dignosis.py" />
         <option value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Readme" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dsedc_eval.py" />
+        <option value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dscdc_train.py" />
+        <option value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dscdc_inference.py" />
       </list>
     </option>
   </component>
@@ -170,7 +191,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="854" />
     <option name="height" value="1017" />
@@ -196,6 +217,18 @@
             <path>
               <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
               <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
+              <item name="Depthwise_separable_conv_drop_connect" type="462c0819:PsiDirectoryNode" />
+              <item name="compare_models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
+              <item name="Depthwise_separable_conv_drop_connect" type="462c0819:PsiDirectoryNode" />
+              <item name="fine_turning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
               <item name="LeNet_1d_diagnosis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -214,13 +247,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\liuzard\PycharmProjects\deep_learning_diagnosis\Depthwise_separable_conv_drop_connect\fine_turning" />
+      <recent name="C:\Users\liuzard\PycharmProjects\deep_learning_diagnosis\Depthwise_separable_conv_drop_connect\compare_models" />
+      <recent name="C:\Users\liuzard\PycharmProjects\deep_learning_diagnosis\Depthwise_separable_conv_drop_connect\fine-turning" />
+      <recent name="C:\Users\liuzard\PycharmProjects\deep_learning_diagnosis\Depthwise_separable_conv_drop_connect" />
+      <recent name="C:\Users\liuzard\PycharmProjects\deep_learning\DCAE_diagnosis" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\liuzard\PycharmProjects\deep_learning\DCAE_diagnosis" />
       <recent name="C:\Users\liuzard\PycharmProjects\deep_learning\cifar_classifer" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\liuzard\PycharmProjects\deep_learning_diagnosis\Depthwise_separable_conv_drop_connect" />
-      <recent name="C:\Users\liuzard\PycharmProjects\deep_learning\DCAE_diagnosis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.depth_wise_convolution">
+  <component name="RunManager" selected="Python.Dscdc_train">
     <configuration name="DCGAN_MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep_learning_diagnosis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,6 +286,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GAN/DCGAN_MNIST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Dscdc_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deep_learning_diagnosis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dscdc_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Dsedc_eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deep_learning_diagnosis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dsedc_eval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,37 +367,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deep_learning_diagnosis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.plot_module" />
       <item itemvalue="Python.DCGAN_MNIST" />
       <item itemvalue="Python.depth_wise_convolution" />
+      <item itemvalue="Python.Dscdc_train" />
+      <item itemvalue="Python.Dsedc_eval" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Dscdc_train" />
+        <item itemvalue="Python.Dsedc_eval" />
         <item itemvalue="Python.depth_wise_convolution" />
         <item itemvalue="Python.DCGAN_MNIST" />
         <item itemvalue="Python.plot_module" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -365,15 +422,15 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34154534" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30235162" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.09172259" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23533008" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15403423" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" type="SLIDING" weight="0.04828851" />
       <window_info anchor="right" auto_hide="true" x="0" y="0" width="1680" height="1010" id="SciView" order="4" show_stripe_button="false" sideWeight="0.49916527" type="FLOATING" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.16778524" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43225083" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -396,31 +453,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AlexNet_diagnosis/AlexNet_diagnosis_inference.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet_diagnosis/AlexNet_diagnosis_eval.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cifar_classifer/knn_classifier.py" />
-    <entry file="file://$PROJECT_DIR$/DCAE_diagnosis/plot_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5280">
-          <caret line="273" lean-forward="true" selection-start-line="273" selection-end-line="273" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet/AlexNet_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AlexNet_Huang/AlexNet_Time_envaluate.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -548,21 +584,12 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GAN/DCGAN_bearing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GAN/DCGAN_MNIST.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4740">
           <caret line="242" selection-end-line="244" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,7 +614,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="540">
           <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -604,7 +631,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
+        <state relative-caret-position="920">
           <caret line="46" column="41" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="41" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -615,9 +642,7 @@
     <entry file="file://$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_inference.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_dignosis.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_dignosis.py" />
     <entry file="file://$PROJECT_DIR$/depth_wise_convolution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -648,6 +673,43 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine-turning/Dscdc_inference.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dsedc_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="69" column="16" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/compare_models/Dscdc_inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dscdc_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1160">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/fine_turning/Dscdc_inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
         </state>
       </provider>
     </entry>
