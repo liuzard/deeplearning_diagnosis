@@ -1,24 +1,21 @@
 import os
 
 import numpy as np
-import pandas as pd
 import sklearn.preprocessing as pre
 import tensorflow as tf
-from sklearn import decomposition
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 
-from LeNet_1d_diagnosis import LeNet_1d_inference
-from LeNet_1d_diagnosis import matfile_reader
+
+from Depthwise_separable_conv_drop_connect import Dscdc_inference
+from Depthwise_separable_conv_drop_connect import matfile_reader
 
 BATCH_SIZE = 100
-LEARNING_RATE_BASE = 0.035
+LEARNING_RATE_BASE = 0.01
 LEARNING_RATE_DECAY = 0.99
 REGULARIZATION_RATE = 0.0001
 TRAINING_STEPS = 60000
 MOVING_AVERAGE_DECAY = 0.99
-SAVE_PATH="E:/MNIST/convelutional"
-MODEL_NAME="LetNet5_mnist_model.ckpt"
+SAVE_PATH=r"G:\06 深度学习模型\depthsie_separable_dropconnect"
+MODEL_NAME="depthsie_separable_dropconnect.ckpt"
 
 
 
@@ -43,14 +40,14 @@ def train(data_samples,data_labels,data_tag):
     # 定义输出为4维矩阵的placeholder
     x = tf.placeholder(tf.float32, [
         BATCH_SIZE,
-        LeNet_1d_inference.IMAGE_WIDTH,
-        LeNet_1d_inference.IMAGE_CHANNELS],
+        Dscdc_inference.IMAGE_WIDTH,
+        Dscdc_inference.IMAGE_CHANNELS],
                        name='x-input')
 
-    y_ = tf.placeholder(tf.float32, [None, LeNet_1d_inference.IMAGE_LABELS], name='y-input')
+    y_ = tf.placeholder(tf.float32, [None, Dscdc_inference.IMAGE_LABELS], name='y-input')
 
     regularizer = tf.contrib.layers.l2_regularizer(REGULARIZATION_RATE)
-    hidden,y = LeNet_1d_inference.inference(x, False, regularizer)
+    y = Dscdc_inference.inference(x, False, regularizer)
 
     global_step = tf.Variable(0, trainable=False)
 
@@ -61,6 +58,7 @@ def train(data_samples,data_labels,data_tag):
     cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=y, labels=tf.argmax(y_, 1))
     cross_entropy_mean = tf.reduce_mean(cross_entropy)
     loss = cross_entropy_mean + tf.add_n(tf.get_collection('losses'))
+
     learning_rate = tf.train.exponential_decay(
         LEARNING_RATE_BASE,
         global_step,
@@ -82,8 +80,8 @@ def train(data_samples,data_labels,data_tag):
 
             reshaped_xs = np.reshape(xs, (
                 BATCH_SIZE,
-                LeNet_1d_inference.IMAGE_WIDTH,
-                LeNet_1d_inference.IMAGE_CHANNELS))
+                Dscdc_inference.IMAGE_WIDTH,
+                Dscdc_inference.IMAGE_CHANNELS))
             _,loss_value, step = sess.run([train_op,loss,global_step], feed_dict={x: reshaped_xs, y_: ys})
             if i % 100 == 0:
                 print("After %d training step(s), loss on training batch is %g" % (step, loss_value))
@@ -93,12 +91,8 @@ def train(data_samples,data_labels,data_tag):
 
 
 def main(argv=None):
-    # mnist = input_data.read_data_sets("/tmp/data", one_hot=True)
-    train_data=matfile_reader.dataset_reader('E:\\bearing_dataset.mat')
-    # train_data = pd.read_excel("traindataset.xlsx")
+    train_data=matfile_reader.dataset_reader(r'G:\04 实验数据\bearing_dataset_2000.mat')
     print("train dateset read over")
-    # test_data = pd.read_excel("E:\\故障诊断实验数据\\实验数据_20171201\\原始数据_数据集\\test_dataset.xlsx")
-
     train_samples, train_labels,data_tag= data_preprocess(train_data)
     train(train_samples,train_labels,data_tag)
 
