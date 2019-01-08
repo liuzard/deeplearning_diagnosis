@@ -14,6 +14,7 @@ batch_size = 32
 num_batch = 100
 
 
+
 def print_activations(t):
     print(t.op.name, '', t.get_shape().as_list())
 

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/deep_learning.iml" filepath="$PROJECT_DIR$/.idea/deep_learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/deep_learning_diagnosis.iml" filepath="$PROJECT_DIR$/.idea/deep_learning_diagnosis.iml" />
     </modules>
   </component>
 </project>
