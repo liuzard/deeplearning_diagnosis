@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dfdbfaf-0fa6-40bf-82d5-9ce80aef7c9b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deep_learning_diagnosis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deep_learning_diagnosis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dscdc_inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dscdc_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dsedc_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/matfile_reader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlexNet_Huang/AlexNet_Time_envaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlexNet_Huang/AlexNet_Time_envaluate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,13 +48,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="depth_wise_convolution.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="depth_wise_convolution.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/depth_wise_convolution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="420">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dsedc_eval.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dsedc_eval.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,18 +109,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DCGAN_MNIST.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GAN/DCGAN_MNIST.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4740">
-              <caret line="242" selection-end-line="244" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LeNet5_Mnist_inference.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeNet5_MNIST/LeNet5_Mnist_inference.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -119,17 +120,6 @@
             <state>
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DCGAN_bearing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GAN/DCGAN_bearing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,6 +155,9 @@
         <option value="$PROJECT_DIR$/AlexNet_Huang/AlexNet_Time_envaluate.py" />
         <option value="$PROJECT_DIR$/AlexNet_Huang/AlexNet_Time_envaluate.py" />
         <option value="$PROJECT_DIR$/depth_wise_convolution.py" />
+        <option value="$PROJECT_DIR$/Depthwise_separable_conv_dignosis.py" />
+        <option value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Readme" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -177,7 +170,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="854" />
     <option name="height" value="1017" />
@@ -187,20 +180,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="deep_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
               <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="deep_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
               <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
-              <item name="LeNet5_dignosis" type="462c0819:PsiDirectoryNode" />
+              <item name="Depthwise_separable_conv_drop_connect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="deep_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
               <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
               <item name="LeNet_1d_diagnosis" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -208,7 +202,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,12 +214,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\liuzard\PycharmProjects\deep_learning\DCAE_diagnosis" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\liuzard\PycharmProjects\deep_learning\DCAE_diagnosis" />
       <recent name="C:\Users\liuzard\PycharmProjects\deep_learning\cifar_classifer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\liuzard\PycharmProjects\deep_learning_diagnosis\Depthwise_separable_conv_drop_connect" />
+      <recent name="C:\Users\liuzard\PycharmProjects\deep_learning\DCAE_diagnosis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -344,6 +338,21 @@
       <option name="presentableId" value="Default" />
       <updated>1528615063384</updated>
     </task>
+    <task id="LOCAL-00001" summary="creat a file to research  depthwise convolution.">
+      <created>1546933631763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546933631763</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Modify the gitignore file.">
+      <created>1546934509084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546934509084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -358,7 +367,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32997763" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34154534" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.09172259" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23227383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23533008" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" type="SLIDING" weight="0.04828851" />
       <window_info anchor="right" auto_hide="true" x="0" y="0" width="1680" height="1010" id="SciView" order="4" show_stripe_button="false" sideWeight="0.49916527" type="FLOATING" weight="0.0" />
@@ -380,32 +389,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creat a file to research  depthwise convolution." />
+    <MESSAGE value="Modify the gitignore file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify the gitignore file." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DCAE_diagnosis/plot_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5280">
-          <caret line="273" selection-start-line="273" selection-end-line="273" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet/AlexNet_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet_Huang/AlexNet_Time_envaluate.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet_diagnosis/AlexNet_diagnosis_train.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/AlexNet_diagnosis/AlexNet_diagnosis_inference.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -621,12 +615,38 @@
     <entry file="file://$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_inference.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_dignosis.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/depth_wise_convolution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="420">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dsedc_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
