@@ -2,19 +2,17 @@ import scipy.io as scio
 import matplotlib.pyplot as plt
 import numpy as np
 
-roller_mat_path=r"C:\Users\liuzard\Desktop\factory1.mat"
+roller_mat_path=r"G:\04 实验数据\02 实验台实验数据\实验数据_20180119\轴承\07 roller_02_ch01_h_ch02_v"
 roller_mat=scio.loadmat(roller_mat_path)
-# print(roller_mat)
-roller_data=roller_mat["factory1"]
-print(roller_data.shape)
-original_signal=roller_data[6000:8000,0]
+roller_data=roller_mat["data1"]
+original_signal=roller_data[6000:8000,1]
 
 def add_noise(original_signal,noise_factor):
     Gaussian_noise=noise_factor * np.random.randn(*original_signal.shape)
     noisy_signal=Gaussian_noise+original_signal
     return noisy_signal
 
-def plot(data, linewidth, ylabel, ymin=-10000, ymax=10000):
+def plot(data, linewidth, ylabel, ymin=-2.3, ymax=2.3):
     # plt.rcParams['xtick.labelsize'] = 30
     # plt.rcParams['ytick.labelsize'] = 30
     plt.plot(data, linewidth=linewidth)

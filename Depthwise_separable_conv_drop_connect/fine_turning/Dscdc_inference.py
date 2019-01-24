@@ -4,6 +4,7 @@
 # 1、导入需要用到的库
 import tensorflow as tf
 
+width_multiplier=0.25
 # 2、配置卷积神经网络参数
 INPUT_NODE = 2000
 OUTPUT_NODE = 10
@@ -14,17 +15,17 @@ IMAGE_LABELS = 10
 
 # 第一层卷积层的尺寸和深度
 CONV1_WIDTH = 20
-CONV1_DEEP = 16
+CONV1_DEEP = int(8*width_multiplier)
 CONV1_STRIDE=9
 
 # 第二层卷积层的尺寸和深度（深度可分卷积）
 CONV2_WIDTH = 11
-CONV2_DEEP = 32
+CONV2_DEEP = int(16*width_multiplier)
 CONV2_STRIDE=5
 
 # 第三层卷积层的尺寸和深度
 CONV3_WIDTH = 5
-CONV3_DEEP = 64
+CONV3_DEEP = int(32*width_multiplier)
 CONV3_STRIDE=3
 
 # 全连接层网络参数
