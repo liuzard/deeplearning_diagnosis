@@ -8,7 +8,7 @@ excel_path=r"C:\Users\liuzard\PycharmProjects\deep_learning_diagnosis\DCAE_diagn
 conf_mat=pd.read_excel(excel_path)
 cm=np.array(conf_mat)
 print(cm)
-labels=range(10)
+labels=["Normal","IF-0.018","IF-0.036","IF-0.054","OF-0.018","OF-0.036","OF-0.054","RF-0.018","RF-0.036","RF-0.054"]
 
 
 tick_marks = np.array(range(10)) + 0.5
@@ -20,7 +20,7 @@ def plot_confusion_matrix(cm, title=None, cmap=plt.get_cmap('gray_r')):
     cbar.set_ticks(np.linspace(0, 100, 6))
     cbar.set_ticklabels(('0', '20', '40', '60', '80', '100',"120"))
     xlocations = np.array(range(len(labels)))
-    plt.xticks(xlocations, labels, fontsize=15)
+    plt.xticks(xlocations, labels, fontsize=15,rotation=-45)
     plt.yticks(xlocations, labels, fontsize=15)
     plt.ylabel('True label', fontsize=20)
     plt.xlabel('Predict label', fontsize=20)
@@ -46,4 +46,5 @@ plt.grid(True, which='minor', linestyle='-')
 plt.gcf().subplots_adjust(bottom=0.15)
 
 plot_confusion_matrix(cm)
+plt.savefig(r"C:\Users\liuzard\Desktop\figs\confusion_matrix.png", format='png', transparent=True, dpi=400)
 plt.show()

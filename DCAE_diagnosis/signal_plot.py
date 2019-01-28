@@ -29,7 +29,7 @@ def plot_signals(orignal_data, noisy_data, re_data_dcae,re_data_dae):
     # sn.set(style="whitegrid", font='SimHei', color_codes=True)
     # plt.subplot(311)
     # plot(train_data, 1, '干净信号')
-
+    plt.figure(figsize=(18, 6))
     plt.subplot(221)
     plot(orignal_data, 1, 'Original signal')
 
@@ -40,7 +40,9 @@ def plot_signals(orignal_data, noisy_data, re_data_dcae,re_data_dae):
     plot(re_data_dcae, 1, 'De-noised signal (DAE)')
 
     plt.subplot(223)
-    plot(re_data_dae, 1, 'De-noised signal (DCAE)')
+    plot(re_data_dae, 1, 'De-noised signal (DCAE-1D)')
+    plt.subplots_adjust(hspace=0.4)
+    plt.savefig(r"E:\figs\diff_signals.png", format='png', transparent=True, dpi=300,)
 
 plot_signals(original_signal,noisy_signal,reconstruct_signal_dae,reconstruct_signal_dcae)
 plt.show()

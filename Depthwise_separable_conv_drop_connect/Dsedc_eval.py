@@ -49,7 +49,10 @@ def evaluate(data_samples, data_labels, datatag):
                 if ckpt and ckpt.model_checkpoint_path:
                     saver.restore(sess, ckpt.model_checkpoint_path)
                     global_step = ckpt.model_checkpoint_path.split('/')[-1].split('-')[-1]
+                    time_start=time.time()
                     accuracy_value = sess.run(accuracy, feed_dict={x: reshaped_xs, y_: ys})
+                    time_end=time.time()
+                    print("time use %f"%(time_end-time_start))
                     print("After %s trainning steps ,the accuracy on test datasets of model is %f" % (
                     global_step, accuracy_value))
 

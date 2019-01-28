@@ -3,7 +3,7 @@ import os
 import numpy as np
 import sklearn.preprocessing as pre
 import tensorflow as tf
-
+import time
 
 from Depthwise_separable_conv_drop_connect import Dscdc_inference
 from Depthwise_separable_conv_drop_connect import matfile_reader
@@ -75,6 +75,7 @@ def train(data_samples,data_labels,data_tag):
     saver = tf.train.Saver()
     with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
         tf.global_variables_initializer().run()
+        time_start=time.time()
         for i in range(TRAINING_STEPS):
             xs, ys,ys_pca = get_random_block_form_data(data_samples,data_labels,data_tag,BATCH_SIZE)
 
@@ -86,6 +87,9 @@ def train(data_samples,data_labels,data_tag):
             if i % 100 == 0:
                 print("After %d training step(s), loss on training batch is %g" % (step, loss_value))
                 saver.save(sess, os.path.join(SAVE_PATH, MODEL_NAME), global_step=global_step)
+            if i%5000==0:
+                time_end=time.time()
+                print("time uses %f"%(time_end-time_start))
 
 
 

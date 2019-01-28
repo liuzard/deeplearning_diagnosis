@@ -6,6 +6,7 @@ import pandas as pd
 import sklearn.preprocessing as pre
 import tensorflow as tf
 from BPNetwork_diagnosis import matfile_reader
+import time
 
 from BPNetwork_diagnosis import BPNetwork_inference
 
@@ -18,7 +19,7 @@ AVERAGE_MOVING_DECAY=0.99
 REGULARZITION_RATE=0.0001
 TRAINING_STEPS=10000
 
-MODEL_SAVE_PATH="E:\DeepLearning_model\BPNetwork\BPNetwork_diagnosis"
+MODEL_SAVE_PATH=r"G:\06 深度学习模型\BPNetwork\BPNetwork_diagnosis"
 MODEL_NAME="BPNetwork_diagnosis.ckpt"
 
 def one_hot_transform(formalarray,input_label):#把原始编码转换成One-hot编码
@@ -61,6 +62,7 @@ def train(data_samples,data_labels,data_tag):
     gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.333)
     with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
         sess.run(tf.global_variables_initializer())
+        time_start=time.time()
         for i in range(TRAINING_STEPS):
             xs, ys, ys_pca = get_random_block_form_data(data_samples, data_labels, data_tag, BATCH_SIZE)
 
@@ -68,11 +70,14 @@ def train(data_samples,data_labels,data_tag):
             if i%100==0:
                 print("After %d training steps,the loss of the model is %g"%(step,loss_value))
                 saver.save(sess,os.path.join(MODEL_SAVE_PATH,MODEL_NAME),global_step=global_step)
+            if i%5000==0:
+                time_end=time.time()
+                print("time use %f"%(time_end-time_start))
 
 
 def main(argv=None):
     # mnist = input_data.read_data_sets("/tmp/data", one_hot=True)
-    train_data=matfile_reader.dataset_reader('E:\\bearing_dataset_2000.mat')
+    train_data=matfile_reader.dataset_reader(r'G:\04 实验数据\bearing_dataset_2000.mat')
     # train_data = pd.read_excel("traindataset.xlsx")
     print("train dateset read over")
     # test_data = pd.read_excel("E:\\故障诊断实验数据\\实验数据_20171201\\原始数据_数据集\\test_dataset.xlsx")
