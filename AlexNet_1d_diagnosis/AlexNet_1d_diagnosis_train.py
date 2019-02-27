@@ -11,7 +11,7 @@ from AlexNet_1d_diagnosis import matfile_reader
 BATCH_SIZE = 100
 LEARNING_RATE_BASE = 0.01
 LEARNING_RATE_DECAY = 0.99
-REGULARIZATION_RATE = 0.0001
+REGULARIZATION_RATE = 0.00001
 TRAINING_STEPS = 60000
 MOVING_AVERAGE_DECAY = 0.99
 SAVE_PATH = "E:\MNIST\AlexNet"
@@ -99,7 +99,7 @@ def train(data_samples, data_labels, data_tag):
 
 def main(argv=None):
     # mnist = input_data.read_data_sets("/tmp/data", one_hot=True)
-    train_data = matfile_reader.dataset_reader('E:/bearing_dataset_1024_with_noise.mat')
+    train_data = matfile_reader.dataset_reader(r'G:\04 实验数据\02 实验台实验数据\实验数据_20180119\bearing_dataset_2000.mat')
     # train_data = pd.read_excel("traindataset.xlsx")
     print("train dateset read over")
     # test_data = pd.read_excel("E:\\故障诊断实验数据\\实验数据_20171201\\原始数据_数据集\\test_dataset.xlsx")

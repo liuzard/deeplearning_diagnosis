@@ -5,10 +5,10 @@
 import tensorflow as tf
 
 # 2、配置卷积神经网络参数
-INPUT_NODE = 1024
+INPUT_NODE = 2000
 OUTPUT_NODE = 10
 
-IMAGE_WIDTH = 1024
+IMAGE_WIDTH = 2000
 IMAGE_CHANNELS = 1
 IMAGE_LABELS = 10
 

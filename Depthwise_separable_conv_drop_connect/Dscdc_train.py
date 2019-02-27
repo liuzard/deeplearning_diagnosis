@@ -1,5 +1,4 @@
 import os
-
 import numpy as np
 import sklearn.preprocessing as pre
 import tensorflow as tf
@@ -90,8 +89,6 @@ def train(data_samples,data_labels,data_tag):
             if i%5000==0:
                 time_end=time.time()
                 print("time uses %f"%(time_end-time_start))
-
-
 
 
 def main(argv=None):

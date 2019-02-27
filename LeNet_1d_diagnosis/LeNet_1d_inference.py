@@ -6,11 +6,11 @@ import tensorflow as tf
 
 # 2、配置卷积神经网络参数
 INPUT_NODE = 2000
-OUTPUT_NODE = 9
+OUTPUT_NODE = 10
 
-IMAGE_WIDTH = 1024
+IMAGE_WIDTH = 2000
 IMAGE_CHANNELS = 1
-IMAGE_LABELS = 9
+IMAGE_LABELS = 10
 
 # 第一层卷积层的尺寸和深度
 CONV1_WIDTH = 20
@@ -35,7 +35,7 @@ CONV5_DEEP = 128
 # 全连接层网络参数
 FC1_WIDTH = 500
 FC2_WIDTH = 100
-FC3_WIDTH = 9
+FC3_WIDTH = 10
 
 
 def inference(input_tensor, train, regularizer):

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dfdbfaf-0fa6-40bf-82d5-9ce80aef7c9b" name="Default" comment="Add some plot module in the DCAE project.">
+    <list default="true" id="6dfdbfaf-0fa6-40bf-82d5-9ce80aef7c9b" name="Default" comment="Modify the plot_module of &quot;DCAE_diagnosis&quot;">
+      <change afterPath="$PROJECT_DIR$/Add_noise_to_signal/add_noise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Add_noise_to_signal/add_noise_to_signal.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FFT_transform/FFT_transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matfile_operation/Dataset_constrcution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BPNetwork_diagnosis/BPNetwork_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/BPNetwork_diagnosis/BPNetwork_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DCAE_diagnosis/confusion_bearing.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DCAE_diagnosis/confusion_bearing.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DCAE_diagnosis/experiment1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DCAE_diagnosis/experiment1.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DCAE_diagnosis/plot_confusion_mat.py" beforeDir="false" afterPath="$PROJECT_DIR$/DCAE_diagnosis/plot_confusion_mat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DCAE_diagnosis/plot_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/DCAE_diagnosis/plot_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DCAE_diagnosis/signal_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/DCAE_diagnosis/signal_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dscdc_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dscdc_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dsedc_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dsedc_eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,22 +23,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$multi_process.coverage" NAME="multi_process Coverage Results" MODIFIED="1547455247277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deep_learning_diagnosis$Dscdc_train.coverage" NAME="Dscdc_train Coverage Results" MODIFIED="1548429615848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect" />
     <SUITE FILE_PATH="coverage/deep_learning$DCGAN_MNIST.coverage" NAME="DCGAN_MNIST Coverage Results" MODIFIED="1546506850766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN" />
     <SUITE FILE_PATH="coverage/deep_learning_diagnosis$dropblock_test.coverage" NAME="dropblock_test Coverage Results" MODIFIED="1547012672884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$Dataset_constrcution.coverage" NAME="Dataset_constrcution Coverage Results" MODIFIED="1551265604069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matfile_operation" />
     <SUITE FILE_PATH="coverage/deep_learning$depth_wise_convolution.coverage" NAME="depth_wise_convolution Coverage Results" MODIFIED="1546874501400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deep_learning_diagnosis$plot_module.coverage" NAME="plot_module Coverage Results" MODIFIED="1548605053258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DCAE_diagnosis" />
-    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$BPNetwork_train.coverage" NAME="BPNetwork_train Coverage Results" MODIFIED="1548429386425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BPNetwork_diagnosis" />
     <SUITE FILE_PATH="coverage/deep_learning_diagnosis$depth_wise_convolution.coverage" NAME="depth_wise_convolution Coverage Results" MODIFIED="1546909469029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$AlexNet_1d_diagnosis_eval.coverage" NAME="AlexNet_1d_diagnosis_eval Coverage Results" MODIFIED="1551266763793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlexNet_1d_diagnosis" />
+    <SUITE FILE_PATH="coverage/deep_learning$test.coverage" NAME="test Coverage Results" MODIFIED="1528615124281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$AlexNet_1d_diagnosis_train.coverage" NAME="AlexNet_1d_diagnosis_train Coverage Results" MODIFIED="1551266632594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlexNet_1d_diagnosis" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$GAN_MNIST.coverage" NAME="GAN_MNIST Coverage Results" MODIFIED="1547455491768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$signal_plot.coverage" NAME="signal_plot Coverage Results" MODIFIED="1548597283832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DCAE_diagnosis" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$multi_process.coverage" NAME="multi_process Coverage Results" MODIFIED="1547455247277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$code.coverage" NAME="code Coverage Results" MODIFIED="1550458821129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$LeNet_1d_train.coverage" NAME="LeNet_1d_train Coverage Results" MODIFIED="1551265850738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeNet_1d_diagnosis" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$BPNetwork_train.coverage" NAME="BPNetwork_train Coverage Results" MODIFIED="1548429386425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BPNetwork_diagnosis" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$FFT_transform.coverage" NAME="FFT_transform Coverage Results" MODIFIED="1550670416273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FFT_transform" />
     <SUITE FILE_PATH="coverage/deep_learning$plot_module.coverage" NAME="plot_module Coverage Results" MODIFIED="1545962914853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DCAE_diagnosis" />
     <SUITE FILE_PATH="coverage/deep_learning_diagnosis$plot_confusion_mat.coverage" NAME="plot_confusion_mat Coverage Results" MODIFIED="1548600228114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DCAE_diagnosis" />
     <SUITE FILE_PATH="coverage/deep_learning_diagnosis$Dsedc_eval.coverage" NAME="Dsedc_eval Coverage Results" MODIFIED="1548430032227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect" />
-    <SUITE FILE_PATH="coverage/deep_learning$test.coverage" NAME="test Coverage Results" MODIFIED="1528615124281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$add_noise.coverage" NAME="add_noise Coverage Results" MODIFIED="1550458267168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Add_noise_to_signal" />
+    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$LeNet5_Bearing_train.coverage" NAME="LeNet5_Bearing_train Coverage Results" MODIFIED="1551265356930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeNet5_dignosis" />
     <SUITE FILE_PATH="coverage/deep_learning_diagnosis$python_learn.coverage" NAME="python_learn Coverage Results" MODIFIED="1547090176397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deep_learning_diagnosis$plot.coverage" NAME="plot Coverage Results" MODIFIED="1548312768351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$GAN_MNIST.coverage" NAME="GAN_MNIST Coverage Results" MODIFIED="1547455491768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN" />
-    <SUITE FILE_PATH="coverage/deep_learning_diagnosis$signal_plot.coverage" NAME="signal_plot Coverage Results" MODIFIED="1548597283832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DCAE_diagnosis" />
     <SUITE FILE_PATH="coverage/deep_learning_diagnosis$confusion_matrix.coverage" NAME="confusion_matrix Coverage Results" MODIFIED="1548068589845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -55,85 +65,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="confusion_matrix.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/confusion_matrix.py">
+      <file leaf-file-name="matdile_reader_generate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matfile_operation/matdile_reader_generate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BPNetwork_inference.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BPNetwork_diagnosis/BPNetwork_inference.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="BPNetwork_train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BPNetwork_diagnosis/BPNetwork_train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1280">
-              <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
-              <folding>
-                <element signature="e#79#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dscdc_train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dscdc_train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dsedc_eval.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dsedc_eval.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot_confusion_mat.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DCAE_diagnosis/plot_confusion_mat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colorbar_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/colorbar_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signal_plot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DCAE_diagnosis/signal_plot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state>
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -141,25 +76,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_module.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DCAE_diagnosis/plot_module.py">
+      <file leaf-file-name="Dataset_constrcution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matfile_operation/Dataset_constrcution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="282" selection-start-line="282" selection-end-line="282" />
+            <state relative-caret-position="300">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plot.py">
+      <file leaf-file-name="AlexNet_1d_diagnosis_train.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_train.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlexNet_1d_diagnosis_inference.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_inference.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-779">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeNet5_Bearing_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="96" column="107" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeNet5_Bearing_inference.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_inference.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="LeNet_1d_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="96" column="107" lean-forward="true" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeNet_1d_inference.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_inference.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matfile_reader.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeNet_1d_diagnosis/matfile_reader.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -167,6 +151,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -207,11 +192,22 @@
         <option value="$PROJECT_DIR$/confusion_matrix.py" />
         <option value="$PROJECT_DIR$/plot.py" />
         <option value="$PROJECT_DIR$/BPNetwork_diagnosis/BPNetwork_train.py" />
-        <option value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dscdc_train.py" />
         <option value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dsedc_eval.py" />
         <option value="$PROJECT_DIR$/DCAE_diagnosis/signal_plot.py" />
         <option value="$PROJECT_DIR$/DCAE_diagnosis/plot_confusion_mat.py" />
         <option value="$PROJECT_DIR$/DCAE_diagnosis/plot_module.py" />
+        <option value="$PROJECT_DIR$/Add_noise_to_signal/add_noise.py" />
+        <option value="$PROJECT_DIR$/VGGNET/jupyter_test.ipynb" />
+        <option value="$PROJECT_DIR$/Add_noise_to_signal/add_noise_to_signal.ipynb" />
+        <option value="$PROJECT_DIR$/FFT_transform/FFT_transform.py" />
+        <option value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dscdc_train.py" />
+        <option value="$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_train.py" />
+        <option value="$PROJECT_DIR$/matfile_operation/Dataset_constrcution.py" />
+        <option value="$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_inference.py" />
+        <option value="$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_train.py" />
+        <option value="$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_inference.py" />
+        <option value="$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_eval.py" />
+        <option value="$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_train.py" />
       </list>
     </option>
   </component>
@@ -224,9 +220,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="919" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
     <option name="width" value="854" />
     <option name="height" value="1017" />
   </component>
@@ -235,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,12 +240,43 @@
             <path>
               <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
               <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
-              <item name="DCAE_diagnosis" type="462c0819:PsiDirectoryNode" />
+              <item name="AlexNet_1d_diagnosis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
+              <item name="Depthwise_separable_conv_drop_connect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
+              <item name="FFT_transform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
+              <item name="LeNet5_dignosis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
+              <item name="LeNet_1d_diagnosis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
+              <item name="matfile_operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning_diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_diagnosis" type="462c0819:PsiDirectoryNode" />
+              <item name="VGGNET" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,8 +312,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plot_module">
-    <configuration name="Dscdc_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.AlexNet_1d_diagnosis_eval">
+    <configuration name="AlexNet_1d_diagnosis_eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep_learning_diagnosis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,18 +321,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AlexNet_1d_diagnosis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dscdc_train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_eval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Dsedc_eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="AlexNet_1d_diagnosis_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep_learning_diagnosis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,18 +340,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AlexNet_1d_diagnosis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dsedc_eval.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="plot_confusion_mat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Dataset_constrcution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep_learning_diagnosis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -334,18 +359,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DCAE_diagnosis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/matfile_operation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DCAE_diagnosis/plot_confusion_mat.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matfile_operation/Dataset_constrcution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="plot_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LeNet5_Bearing_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep_learning_diagnosis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -353,18 +378,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DCAE_diagnosis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeNet5_dignosis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DCAE_diagnosis/plot_module.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="signal_plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LeNet_1d_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep_learning_diagnosis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -372,31 +397,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DCAE_diagnosis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeNet_1d_diagnosis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DCAE_diagnosis/signal_plot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Dscdc_train" />
-      <item itemvalue="Python.Dsedc_eval" />
-      <item itemvalue="Python.plot_module" />
-      <item itemvalue="Python.signal_plot" />
-      <item itemvalue="Python.plot_confusion_mat" />
+      <item itemvalue="Python.Dataset_constrcution" />
+      <item itemvalue="Python.AlexNet_1d_diagnosis_train" />
+      <item itemvalue="Python.LeNet5_Bearing_train" />
+      <item itemvalue="Python.LeNet_1d_train" />
+      <item itemvalue="Python.AlexNet_1d_diagnosis_eval" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.plot_module" />
-        <item itemvalue="Python.plot_confusion_mat" />
-        <item itemvalue="Python.signal_plot" />
-        <item itemvalue="Python.Dsedc_eval" />
-        <item itemvalue="Python.Dscdc_train" />
+        <item itemvalue="Python.AlexNet_1d_diagnosis_eval" />
+        <item itemvalue="Python.AlexNet_1d_diagnosis_train" />
+        <item itemvalue="Python.LeNet_1d_train" />
+        <item itemvalue="Python.Dataset_constrcution" />
+        <item itemvalue="Python.LeNet5_Bearing_train" />
       </list>
     </recent_temporary>
   </component>
@@ -432,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548319949600</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modify the plot_module of &quot;DCAE_diagnosis&quot;">
+      <created>1548662692459</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548662692459</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -445,22 +477,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32922733" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.0804904" side_tool="true" visible="true" weight="0.0964247" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5042787" side_tool="true" weight="0.45016798" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.54087347" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4987775" weight="0.16349384" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9195096" weight="0.0964247" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49572128" weight="0.20604703" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9101467" weight="0.31243002" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.090705484" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2260128" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20476772" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" type="SLIDING" weight="0.16320294" />
-      <window_info anchor="bottom" auto_hide="true" x="-295" y="265" width="1650" height="508" id="SciView" order="13" show_stripe_button="false" sideWeight="0.49916527" type="FLOATING" weight="0.0" />
+      <window_info anchor="bottom" auto_hide="true" x="188" y="213" width="1191" height="547" id="SciView" order="13" show_stripe_button="false" sideWeight="0.49916527" type="FLOATING" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.90831554" weight="0.1928494" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.90831554" weight="0.31019038" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -507,7 +539,8 @@
     <MESSAGE value="creat a file to research  depthwise convolution." />
     <MESSAGE value="Modify the gitignore file." />
     <MESSAGE value="Add some plot module in the DCAE project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some plot module in the DCAE project." />
+    <MESSAGE value="Modify the plot_module of &quot;DCAE_diagnosis&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify the plot_module of &quot;DCAE_diagnosis&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -517,9 +550,24 @@
           <line>79</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/matfile_operation/Dataset_constrcution.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_train.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="gear_train_set" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -579,55 +627,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AlexNet_Huang/AlexNet_Time_envaluate.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet_diagnosis/AlexNet_diagnosis_train.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet_diagnosis/AlexNet_diagnosis_inference.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet_diagnosis/AlexNet_diagnosis_eval.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cifar_classifer/knn_classifier.py" />
-    <entry file="file://$PROJECT_DIR$/AlexNet/AlexNet_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet/AlexNet_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet/AlexNet_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet/AlexNet_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/AlexNet/AlexNet_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AlexNet_diagnosis/AlexNet_diagnosis_train.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -663,30 +662,6 @@
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_inference.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="46" column="41" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_inference.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_dignosis.py" />
     <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Readme">
@@ -795,9 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,19 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1280">
           <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
-          <folding>
-            <element signature="e#79#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dscdc_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -868,12 +827,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/VGGNET/jupyter_test.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Add_noise_to_signal/add_noise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DCAE_diagnosis/plot_module.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        <state relative-caret-position="5520">
+          <caret line="285" column="68" selection-start-line="285" selection-start-column="68" selection-end-line="285" selection-end-column="68" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matfile_operation/file_add_noise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Add_noise_to_signal/add_noise_to_signal.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FFT_transform/FFT_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Depthwise_separable_conv_drop_connect/Dscdc_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="99" column="24" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matfile_operation/matdile_reader_generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_inference.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeNet5_dignosis/LeNet5_Bearing_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="96" column="107" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeNet_1d_diagnosis/matfile_reader.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeNet_1d_diagnosis/LeNet_1d_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="96" column="107" lean-forward="true" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matfile_operation/Dataset_constrcution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="77" column="108" selection-start-line="77" selection-start-column="108" selection-end-line="77" selection-end-column="108" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlexNet_1d_diagnosis/AlexNet_1d_diagnosis_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -75,7 +75,7 @@ def evaluate(data_samples, data_labels, datatag):
 
 def main(argv=None):
     # test_data = pd.read_excel("testdataset.xlsx")
-    test_data = matfile_reader.dataset_reader('E:/bearing_dataset_1024_with_noise.mat', train=False)
+    test_data = matfile_reader.dataset_reader(r'G:\04 实验数据\02 实验台实验数据\实验数据_20180119\bearing_dataset_2000.mat', train=False)
     # test_data=test_data[0:10000,:]
     print("train dateset read over")
 
